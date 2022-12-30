@@ -3,7 +3,8 @@ import { Button } from "@chakra-ui/react";
 const Login = () => {
   const handleLogin = async () => {
     const client_id = "003d92c953504ff4a4a45ece99fc039b";
-    const redirect_uri = "http://localhost:3000/";
+    const redirect_uri =
+      "https://63af4dfb8592e60a4f49e763--stellular-seahorse-b40e30.netlify.app/";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
